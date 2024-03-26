@@ -1,6 +1,9 @@
 <app-default-login-layout
-    title="Login"
+    title="Faça seu Login"
     primaryBtnText="Acessar agora"
     secondaryBtnText="Inscreva-se agora"
-    >
+>
+        <form [formGroup]="loginForm">
+            <app-primary-input></app-primary-input>
+        </form>
 </app-default-login-layout>
